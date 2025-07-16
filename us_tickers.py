@@ -1,5 +1,6 @@
 import os
 
+import logging
 import finnhub
 import time
 import json
@@ -64,38 +65,38 @@ def fetch_foreign_company_profile(symbol):
 def process_symbols(symbols, completed_symbols, foreign_companies):
     for idx, symbol in enumerate(symbols, 1):
         if symbol in completed_symbols:
-            print(f"[{idx}] {symbol} skipped (already processed)")
+            logging.info(f"[{idx}] {symbol} skipped (already processed)")
             continue
 
         try:
             company = fetch_foreign_company_profile(symbol)
             if company:
                 foreign_companies.append(company)
-                print(f"[{idx}] {symbol} ({company['country']}) added")
+                logging.info(f"[{idx}] {symbol} ({company['country']}) added")
             else:
-                print(f"[{idx}] {symbol} skipped (US-based or no country info)")
+                logging.info(f"[{idx}] {symbol} skipped (US-based or no country info)")
         except Exception as e:
-            print(f"[{idx}] Error with {symbol}: {e}")
+            logging.info(f"[{idx}] Error with {symbol}: {e}")
 
         if idx % SAVE_EVERY == 0:
             save_data(OUTPUT_FILE, foreign_companies)
-            print(f"Saved progress at {idx} symbols")
+            logging.info(f"Saved progress at {idx} symbols")
 
         time.sleep(RATE_LIMIT_DELAY)
 
 def main():
-    print("Loading existing data...")
+    logging.info("Loading existing data...")
     foreign_companies, completed_symbols = load_existing_data(OUTPUT_FILE)
 
-    print("Fetching list of US tickers...")
+    logging.info("Fetching list of US tickers...")
     symbols = get_all_us_tickers()
-    print(f"Tickers to process: {len(symbols)}")
+    logging.info(f"Tickers to process: {len(symbols)}")
 
     process_symbols(symbols, completed_symbols, foreign_companies)
 
     # Final save
     save_data(OUTPUT_FILE, foreign_companies)
-    print(f"\nDone! Found {len(foreign_companies)} foreign companies listed on US exchanges.")
+    logging.info(f"\nDone! Found {len(foreign_companies)} foreign companies listed on US exchanges.")
 
 if __name__ == "__main__":
     main()
