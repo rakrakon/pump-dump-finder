@@ -3,6 +3,11 @@ from datetime import date
 import logging
 import pandas as pd
 
+logging.basicConfig(
+    level=logging.INFO,  # Enable INFO level and above
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+
 MAX_DAYS_SINCE_IPO = 365 / 2
 
 current_date = date.today()

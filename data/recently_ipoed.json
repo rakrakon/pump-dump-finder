@@ -1,0 +1,866 @@
+[
+    {
+        "symbol":"AEBI",
+        "name":"Aebi Schmidt Holding AG",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"CH",
+        "ipo":"2025-07-01",
+        "shareOutstanding":0.0,
+        "weburl":"https:\/\/www.aebi-schmidt.com\/"
+    },
+    {
+        "symbol":"ANPA",
+        "name":"Rich Sparkle Holdings Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"HK",
+        "ipo":"2025-07-08",
+        "shareOutstanding":12.5,
+        "weburl":""
+    },
+    {
+        "symbol":"ANTA",
+        "name":"Antalpha Platform Holding Co",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"SG",
+        "ipo":"2025-05-14",
+        "shareOutstanding":23.1,
+        "weburl":"https:\/\/ir.antalpha.com\/"
+    },
+    {
+        "symbol":"AXINU",
+        "name":"Axiom Intelligence Acquisition Corp 1",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"GB",
+        "ipo":"2025-06-18",
+        "shareOutstanding":0.0,
+        "weburl":""
+    },
+    {
+        "symbol":"BGL",
+        "name":"Blue Gold Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"KY",
+        "ipo":"2025-06-26",
+        "shareOutstanding":30.57,
+        "weburl":"https:\/\/bluegoldmine.com\/"
+    },
+    {
+        "symbol":"BIYA",
+        "name":"Baiya International Group Inc",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"KY",
+        "ipo":"2025-03-21",
+        "shareOutstanding":12.52,
+        "weburl":"https:\/\/www.baiyainc.com\/"
+    },
+    {
+        "symbol":"BLIV",
+        "name":"BeLive Holdings",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"SG",
+        "ipo":"2025-04-04",
+        "shareOutstanding":10.86,
+        "weburl":"https:\/\/belive.technology\/"
+    },
+    {
+        "symbol":"BMGL",
+        "name":"Basel Medical Group Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"SG",
+        "ipo":"2025-02-25",
+        "shareOutstanding":18.79,
+        "weburl":"https:\/\/www.baselmedical.com"
+    },
+    {
+        "symbol":"BSAAU",
+        "name":"BEST SPAC I Acquistion Corp",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"HK",
+        "ipo":"2025-06-13",
+        "shareOutstanding":5.78,
+        "weburl":""
+    },
+    {
+        "symbol":"CHA",
+        "name":"Chagee Holdings Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"CN",
+        "ipo":"2025-04-17",
+        "shareOutstanding":183.55,
+        "weburl":"https:\/\/investor.chagee.com"
+    },
+    {
+        "symbol":"CIGL",
+        "name":"Concorde International Group Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"SG",
+        "ipo":"2025-04-22",
+        "shareOutstanding":22.33,
+        "weburl":""
+    },
+    {
+        "symbol":"CMDB",
+        "name":"Costamare Bulkers Holdings Ltd",
+        "exchange":"NEW YORK STOCK EXCHANGE, INC.",
+        "country":"MC",
+        "ipo":"2025-05-01",
+        "shareOutstanding":24.2,
+        "weburl":"https:\/\/costamarebulkers.com\/"
+    },
+    {
+        "symbol":"COLA",
+        "name":"Columbus Acquisition Corp",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"SG",
+        "ipo":"2025-01-23",
+        "shareOutstanding":7.94,
+        "weburl":""
+    },
+    {
+        "symbol":"COLAR",
+        "name":"Columbus Acquisition Corp",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"SG",
+        "ipo":"2025-01-23",
+        "shareOutstanding":7.94,
+        "weburl":""
+    },
+    {
+        "symbol":"COLAU",
+        "name":"Columbus Acquisition Corp",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"SG",
+        "ipo":"2025-01-23",
+        "shareOutstanding":7.94,
+        "weburl":""
+    },
+    {
+        "symbol":"COPL",
+        "name":"Copley Acquisition Corp",
+        "exchange":"NEW YORK STOCK EXCHANGE, INC.",
+        "country":"KY",
+        "ipo":"2025-05-01",
+        "shareOutstanding":23.17,
+        "weburl":""
+    },
+    {
+        "symbol":"CUPR",
+        "name":"Cuprina Holdings (Cayman) Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"SG",
+        "ipo":"2025-04-10",
+        "shareOutstanding":21.45,
+        "weburl":"https:\/\/cuprina.com\/"
+    },
+    {
+        "symbol":"DGNX",
+        "name":"Diginex Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"HK",
+        "ipo":"2025-01-22",
+        "shareOutstanding":22.99,
+        "weburl":"https:\/\/www.diginex.com\/"
+    },
+    {
+        "symbol":"DLXY",
+        "name":"Delixy Holdings Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"SG",
+        "ipo":"2025-07-09",
+        "shareOutstanding":16.35,
+        "weburl":""
+    },
+    {
+        "symbol":"DXST",
+        "name":"Decent Holding Inc",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"CN",
+        "ipo":"2025-01-22",
+        "shareOutstanding":16.25,
+        "weburl":"https:\/\/www.dxshengtai.com"
+    },
+    {
+        "symbol":"EDHL",
+        "name":"Everbright Digital Holding Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"HK",
+        "ipo":"2025-04-17",
+        "shareOutstanding":26.66,
+        "weburl":""
+    },
+    {
+        "symbol":"EGG",
+        "name":"Enigmatig Ltd",
+        "exchange":"NYSE MKT LLC",
+        "country":"SG",
+        "ipo":"2025-06-18",
+        "shareOutstanding":28.27,
+        "weburl":"https:\/\/enigmatig.com\/"
+    },
+    {
+        "symbol":"EHLD",
+        "name":"Euroholdings Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"GR",
+        "ipo":"2025-03-07",
+        "shareOutstanding":2.82,
+        "weburl":"https:\/\/euroholdings.gr\/"
+    },
+    {
+        "symbol":"ENGS",
+        "name":"Energys Group Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"GB",
+        "ipo":"2025-04-01",
+        "shareOutstanding":14.25,
+        "weburl":"https:\/\/www.energysgroup.com\/"
+    },
+    {
+        "symbol":"EPSM",
+        "name":"Epsium Enterprise Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"MO",
+        "ipo":"2025-03-26",
+        "shareOutstanding":13.44,
+        "weburl":""
+    },
+    {
+        "symbol":"EPWK",
+        "name":"EPWK Holdings Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"CN",
+        "ipo":"2025-02-06",
+        "shareOutstanding":22.32,
+        "weburl":"http:\/\/www.epwk.cn"
+    },
+    {
+        "symbol":"ETOR",
+        "name":"eToro Group Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"IL",
+        "ipo":"2025-05-14",
+        "shareOutstanding":83.7,
+        "weburl":"https:\/\/www.etoro.com\/"
+    },
+    {
+        "symbol":"FBGL",
+        "name":"FBS Global Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"SG",
+        "ipo":"2025-02-06",
+        "shareOutstanding":13.5,
+        "weburl":"https:\/\/www.FBSGlobal.com.sg"
+    },
+    {
+        "symbol":"FMFC",
+        "name":"Kandal M Venture Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"KH",
+        "ipo":"2025-06-25",
+        "shareOutstanding":18.0,
+        "weburl":""
+    },
+    {
+        "symbol":"FTRK",
+        "name":"Fast Track Group",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"SG",
+        "ipo":"2025-05-23",
+        "shareOutstanding":21.25,
+        "weburl":""
+    },
+    {
+        "symbol":"GIBO",
+        "name":"Gibo Holdings Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"HK",
+        "ipo":"2025-05-09",
+        "shareOutstanding":725.37,
+        "weburl":""
+    },
+    {
+        "symbol":"GMHS",
+        "name":"Gamehaus Holdings Inc",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"CN",
+        "ipo":"2025-01-27",
+        "shareOutstanding":53.57,
+        "weburl":"https:\/\/www.gamehaus.com\/"
+    },
+    {
+        "symbol":"GRAN",
+        "name":"Grande Group Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"HK",
+        "ipo":"2025-07-01",
+        "shareOutstanding":19.62,
+        "weburl":""
+    },
+    {
+        "symbol":"GSHR",
+        "name":"Gesher Acquisition II Corp",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"IL",
+        "ipo":"2025-03-21",
+        "shareOutstanding":20.45,
+        "weburl":""
+    },
+    {
+        "symbol":"GSHRU",
+        "name":"Gesher Acquisition II Corp",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"IL",
+        "ipo":"2025-03-21",
+        "shareOutstanding":20.45,
+        "weburl":""
+    },
+    {
+        "symbol":"GTERU",
+        "name":"Globa Terra Acquisition Corp",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"MX",
+        "ipo":"2025-07-09",
+        "shareOutstanding":15.22,
+        "weburl":""
+    },
+    {
+        "symbol":"HBNB",
+        "name":"Hotel101 Global Holdings Corp",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"SG",
+        "ipo":"2025-07-01",
+        "shareOutstanding":0.0,
+        "weburl":"https:\/\/hotel101global.com\/"
+    },
+    {
+        "symbol":"HCAI",
+        "name":"Huachen AI Parking Management Technology Holding Co Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"CN",
+        "ipo":"2025-02-05",
+        "shareOutstanding":33.73,
+        "weburl":"https:\/\/www.hctdparking.com\/"
+    },
+    {
+        "symbol":"HCHL",
+        "name":"Happy City Holdings Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"HK",
+        "ipo":"2025-06-24",
+        "shareOutstanding":19.1,
+        "weburl":""
+    },
+    {
+        "symbol":"HKPD",
+        "name":"Hong Kong Pharma Digital Technology Holdings Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"HK",
+        "ipo":"2025-01-15",
+        "shareOutstanding":11.0,
+        "weburl":"http:\/\/www.9zt.hk\/"
+    },
+    {
+        "symbol":"HMR",
+        "name":"Heidmar Maritime Holdings Corp",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"GR",
+        "ipo":"2025-02-20",
+        "shareOutstanding":58.16,
+        "weburl":""
+    },
+    {
+        "symbol":"HXHX",
+        "name":"Haoxin Holdings Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"CN",
+        "ipo":"2025-04-15",
+        "shareOutstanding":13.75,
+        "weburl":"https:\/\/ir.haoxinholdings.com\/"
+    },
+    {
+        "symbol":"IOTR",
+        "name":"iOThree Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"SG",
+        "ipo":"2025-04-10",
+        "shareOutstanding":25.65,
+        "weburl":"https:\/\/io3.sg\/"
+    },
+    {
+        "symbol":"JBS",
+        "name":"Jbs NV",
+        "exchange":"NEW YORK STOCK EXCHANGE, INC.",
+        "country":"NL",
+        "ipo":"2025-06-12",
+        "shareOutstanding":1109.06,
+        "weburl":""
+    },
+    {
+        "symbol":"JEM",
+        "name":"707 Cayman Holdings Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"HK",
+        "ipo":"2025-06-09",
+        "shareOutstanding":0.0,
+        "weburl":""
+    },
+    {
+        "symbol":"JLHL",
+        "name":"Julong Holding Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"CN",
+        "ipo":"2025-06-26",
+        "shareOutstanding":21.45,
+        "weburl":"https:\/\/www.julongzx.com"
+    },
+    {
+        "symbol":"LGPS",
+        "name":"LogProstyle Inc",
+        "exchange":"NYSE MKT LLC",
+        "country":"JP",
+        "ipo":"2025-03-25",
+        "shareOutstanding":23.65,
+        "weburl":"https:\/\/www.logprostyle.co.jp\/"
+    },
+    {
+        "symbol":"LHSW",
+        "name":"Lianhe Sowell International Group Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"CN",
+        "ipo":"2025-04-03",
+        "shareOutstanding":52.0,
+        "weburl":""
+    },
+    {
+        "symbol":"LUD",
+        "name":"Luda Technology Group Ltd",
+        "exchange":"NYSE MKT LLC",
+        "country":"HK",
+        "ipo":"2025-02-27",
+        "shareOutstanding":22.69,
+        "weburl":"https:\/\/www.ludahk.com\/"
+    },
+    {
+        "symbol":"LZMH",
+        "name":"LZ Technology Holdings Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"CN",
+        "ipo":"2025-02-27",
+        "shareOutstanding":152.07,
+        "weburl":"http:\/\/lz-qs.com\/"
+    },
+    {
+        "symbol":"MAMK",
+        "name":"MaxsMaking Inc",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"CN",
+        "ipo":"2025-07-07",
+        "shareOutstanding":16.62,
+        "weburl":"https:\/\/MaxsMaking.com\/"
+    },
+    {
+        "symbol":"MAYA",
+        "name":"Maywood Acquisition Corp",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"KY",
+        "ipo":"2025-02-13",
+        "shareOutstanding":14.93,
+        "weburl":""
+    },
+    {
+        "symbol":"MAYAR",
+        "name":"Maywood Acquisition Corp",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"KY",
+        "ipo":"2025-02-13",
+        "shareOutstanding":14.93,
+        "weburl":""
+    },
+    {
+        "symbol":"MAYAU",
+        "name":"Maywood Acquisition Corp",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"KY",
+        "ipo":"2025-02-13",
+        "shareOutstanding":14.93,
+        "weburl":""
+    },
+    {
+        "symbol":"MB",
+        "name":"Masterbeef Group",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"HK",
+        "ipo":"2025-04-10",
+        "shareOutstanding":17.16,
+        "weburl":"https:\/\/www.masterbeefgroup.com\/"
+    },
+    {
+        "symbol":"MCRP",
+        "name":"Micropolis Holding Company",
+        "exchange":"NYSE MKT LLC",
+        "country":"AE",
+        "ipo":"2025-03-06",
+        "shareOutstanding":34.89,
+        "weburl":"https:\/\/www.micropolis.ai\/"
+    },
+    {
+        "symbol":"MCTR",
+        "name":"CTRL Group Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"HK",
+        "ipo":"2025-01-22",
+        "shareOutstanding":15.3,
+        "weburl":"http:\/\/www.ctrl-media.com"
+    },
+    {
+        "symbol":"MENS",
+        "name":"Jyong Biotech Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"TW",
+        "ipo":"2025-06-17",
+        "shareOutstanding":76.03,
+        "weburl":"https:\/\/jyongbio.com\/"
+    },
+    {
+        "symbol":"MSGY",
+        "name":"Masonglory Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"HK",
+        "ipo":"2025-07-08",
+        "shareOutstanding":14.0,
+        "weburl":"https:\/\/www.masontech.com.hk\/"
+    },
+    {
+        "symbol":"NAMM",
+        "name":"Namib Minerals",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"KY",
+        "ipo":"2025-06-06",
+        "shareOutstanding":53.68,
+        "weburl":"https:\/\/investors.namibminerals.com\/"
+    },
+    {
+        "symbol":"NCT",
+        "name":"Intercont (Cayman) Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"HK",
+        "ipo":"2025-03-28",
+        "shareOutstanding":26.73,
+        "weburl":"https:\/\/www.intercontcayman.com\/"
+    },
+    {
+        "symbol":"NNNN",
+        "name":"Anbio Biotechnology",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"DE",
+        "ipo":"2025-02-19",
+        "shareOutstanding":43.89,
+        "weburl":"http:\/\/www.anbio.com"
+    },
+    {
+        "symbol":"OBAWU",
+        "name":"Oxley Bridge Acquisition Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"HK",
+        "ipo":"2025-06-25",
+        "shareOutstanding":0.0,
+        "weburl":""
+    },
+    {
+        "symbol":"OFAL",
+        "name":"OFA Group",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"HK",
+        "ipo":"2025-05-21",
+        "shareOutstanding":13.36,
+        "weburl":"https:\/\/www.ofacorp.com\/"
+    },
+    {
+        "symbol":"OMSE",
+        "name":"OMS Energy Technologies Inc",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"SG",
+        "ipo":"2025-05-13",
+        "shareOutstanding":42.45,
+        "weburl":"https:\/\/ir.omsos.com\/"
+    },
+    {
+        "symbol":"ORIQU",
+        "name":"Origin Investment Corp I",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"SG",
+        "ipo":"2025-07-02",
+        "shareOutstanding":6.38,
+        "weburl":""
+    },
+    {
+        "symbol":"PCLA",
+        "name":"Picocela Inc",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"JP",
+        "ipo":"2025-01-16",
+        "shareOutstanding":33.32,
+        "weburl":"https:\/\/picocela.com\/"
+    },
+    {
+        "symbol":"PFAI",
+        "name":"Pinnacle Food Group Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"CA",
+        "ipo":"2025-04-22",
+        "shareOutstanding":11.7,
+        "weburl":""
+    },
+    {
+        "symbol":"PHOE",
+        "name":"Phoenix Asia Holdings Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"HK",
+        "ipo":"2025-04-25",
+        "shareOutstanding":21.6,
+        "weburl":""
+    },
+    {
+        "symbol":"PLUT",
+        "name":"Plutus Financial Group Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"HK",
+        "ipo":"2025-02-05",
+        "shareOutstanding":15.35,
+        "weburl":"https:\/\/www.plutusfingroup.com\/"
+    },
+    {
+        "symbol":"PN",
+        "name":"Skycorp Solar Group Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"CN",
+        "ipo":"2025-03-04",
+        "shareOutstanding":27.0,
+        "weburl":"https:\/\/www.skycorp.com\/"
+    },
+    {
+        "symbol":"PTNM",
+        "name":"Pitanium Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"HK",
+        "ipo":"2025-05-30",
+        "shareOutstanding":23.01,
+        "weburl":"https:\/\/pitanium.com\/"
+    },
+    {
+        "symbol":"RBNE",
+        "name":"Robin Energy Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"CY",
+        "ipo":"2025-04-07",
+        "shareOutstanding":5.99,
+        "weburl":"https:\/\/www.robinenergy.com\/en#"
+    },
+    {
+        "symbol":"RCT",
+        "name":"RedCloud Holdings PLC",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"GB",
+        "ipo":"2025-03-21",
+        "shareOutstanding":44.23,
+        "weburl":"https:\/\/redcloudtechnology.com"
+    },
+    {
+        "symbol":"RIBB",
+        "name":"Ribbon Acquisition Corp",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"JP",
+        "ipo":"2025-01-15",
+        "shareOutstanding":7.72,
+        "weburl":""
+    },
+    {
+        "symbol":"RIBBR",
+        "name":"Ribbon Acquisition Corp",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"JP",
+        "ipo":"2025-01-15",
+        "shareOutstanding":7.72,
+        "weburl":""
+    },
+    {
+        "symbol":"RIBBU",
+        "name":"Ribbon Acquisition Corp",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"JP",
+        "ipo":"2025-01-15",
+        "shareOutstanding":7.72,
+        "weburl":""
+    },
+    {
+        "symbol":"RTAC",
+        "name":"Renatus Tactical Acquisition I Corp",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"KY",
+        "ipo":"2025-05-15",
+        "shareOutstanding":31.16,
+        "weburl":"http:\/\/www.RTAC1.com\/"
+    },
+    {
+        "symbol":"RYET",
+        "name":"Ruanyun Edai Technology Inc",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"CN",
+        "ipo":"2025-04-08",
+        "shareOutstanding":0.0,
+        "weburl":"http:\/\/www.ruanyun.net"
+    },
+    {
+        "symbol":"SAGT",
+        "name":"Sagtec Global Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"MY",
+        "ipo":"2025-03-07",
+        "shareOutstanding":12.55,
+        "weburl":"https:\/\/www.sagtec-global.com\/"
+    },
+    {
+        "symbol":"SCAG",
+        "name":"Scage Future",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"CN",
+        "ipo":"2025-06-30",
+        "shareOutstanding":0.0,
+        "weburl":""
+    },
+    {
+        "symbol":"SDM",
+        "name":"Smart Digital Group Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"SG",
+        "ipo":"2025-05-02",
+        "shareOutstanding":26.73,
+        "weburl":"http:\/\/www.smdmeta.com\/"
+    },
+    {
+        "symbol":"SKBL",
+        "name":"Skyline Builders Group Holding Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"HK",
+        "ipo":"2025-01-23",
+        "shareOutstanding":28.23,
+        "weburl":""
+    },
+    {
+        "symbol":"SORA",
+        "name":"Top Win International Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"HK",
+        "ipo":"2025-04-02",
+        "shareOutstanding":24.86,
+        "weburl":"https:\/\/topw.com.hk\/"
+    },
+    {
+        "symbol":"STAK",
+        "name":"STAK Inc",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"CN",
+        "ipo":"2025-02-26",
+        "shareOutstanding":11.41,
+        "weburl":"http:\/\/www.stakindustry.com"
+    },
+    {
+        "symbol":"TGE",
+        "name":"Generation Essentials Group",
+        "exchange":"NEW YORK STOCK EXCHANGE, INC.",
+        "country":"FR",
+        "ipo":"2025-06-05",
+        "shareOutstanding":67.92,
+        "weburl":""
+    },
+    {
+        "symbol":"TLIH",
+        "name":"Ten-League International Holdings Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"SG",
+        "ipo":"2025-07-08",
+        "shareOutstanding":29.4,
+        "weburl":"https:\/\/www.ten-league.com.sg\/"
+    },
+    {
+        "symbol":"TMDE",
+        "name":"TMD Energy Ltd",
+        "exchange":"NYSE MKT LLC",
+        "country":"MY",
+        "ipo":"2025-04-21",
+        "shareOutstanding":23.57,
+        "weburl":"https:\/\/tmdel.com\/"
+    },
+    {
+        "symbol":"TTAM",
+        "name":"Titan America SA",
+        "exchange":"NEW YORK STOCK EXCHANGE, INC.",
+        "country":"BE",
+        "ipo":"2025-02-07",
+        "shareOutstanding":184.36,
+        "weburl":""
+    },
+    {
+        "symbol":"VNTG",
+        "name":"Vantage Corp",
+        "exchange":"NYSE MKT LLC",
+        "country":"SG",
+        "ipo":"2025-06-12",
+        "shareOutstanding":31.74,
+        "weburl":"https:\/\/www.vantageshipbrokers.com"
+    },
+    {
+        "symbol":"WETO",
+        "name":"Webus International Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"CN",
+        "ipo":"2025-02-27",
+        "shareOutstanding":22.0,
+        "weburl":"https:\/\/www.webus.vip\/"
+    },
+    {
+        "symbol":"WFF",
+        "name":"WF Holding Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"MY",
+        "ipo":"2025-03-27",
+        "shareOutstanding":25.19,
+        "weburl":""
+    },
+    {
+        "symbol":"WTF",
+        "name":"Waton Financial Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"HK",
+        "ipo":"2025-04-01",
+        "shareOutstanding":48.21,
+        "weburl":""
+    },
+    {
+        "symbol":"WTGUU",
+        "name":"Wintergreen Acquisition Corp",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"CN",
+        "ipo":"2025-05-29",
+        "shareOutstanding":5.85,
+        "weburl":""
+    },
+    {
+        "symbol":"WXM",
+        "name":"WF International Ltd",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"CN",
+        "ipo":"2025-04-01",
+        "shareOutstanding":6.9,
+        "weburl":""
+    },
+    {
+        "symbol":"YB",
+        "name":"Yuanbao Inc",
+        "exchange":"NASDAQ NMS - GLOBAL MARKET",
+        "country":"CN",
+        "ipo":"2025-04-30",
+        "shareOutstanding":45.08,
+        "weburl":"https:\/\/www.yuanbaobaoxian.cn\/"
+    }
+]

@@ -18,6 +18,11 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 client = finnhub.Client(api_key=API_KEY)
 
+logging.basicConfig(
+    level=logging.INFO,  # Enable INFO level and above
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+
 def load_existing_data(filepath):
     if Path(filepath).exists():
         with open(OUTPUT_FILE, "r") as f:
