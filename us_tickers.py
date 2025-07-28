@@ -5,10 +5,13 @@ import finnhub
 import time
 import json
 from pathlib import Path
+from dotenv import load_dotenv
 
 import pandas as pd
 
-API_KEY = "d1q26b1r01qrh89nmr20d1q26b1r01qrh89nmr2g"
+
+load_dotenv()
+API_KEY = os.getenv("API_KEY")
 SAVE_EVERY = 50
 RATE_LIMIT_DELAY = 1.05
 OUTPUT_DIR = "data"
