@@ -12,7 +12,7 @@ def get_ciks_by_symbols(symbols):
     Given a list of ticker symbols, return a dict: { symbol: cik or None }
     """
     url = "https://www.sec.gov/files/company_tickers.json"
-    headers = {"User-Agent": "YourApp (Your Name; email@example.com)"}
+    headers = {"User-Agent": "Barak Bornstein; rakrakon@gmail.com"}
     response = requests.get(url, headers=headers)
     response.raise_for_status()
     data = response.json()
