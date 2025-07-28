@@ -87,14 +87,14 @@ def is_company_ipo_recent(ipo_date: datetime.date):
 
 def ipo_filter():
     logging.info("Reading foreign_companies json..")
-    foreign_companies = pd.read_json("data/foreign_companies_on_us_exchanges.json")
+    foreign_companies = pd.read_json("../data/foreign_companies_on_us_exchanges.json")
 
     logging.info("Filtering Companies..")
     recently_ipoed_companies = get_filtered_companies(foreign_companies)
 
     recently_ipoed_df = pd.DataFrame(recently_ipoed_companies)
 
-    os.makedirs("data", exist_ok=True)
+    os.makedirs("../data", exist_ok=True)
     recently_ipoed_df.to_json("data/recently_ipoed.json", orient="records", lines=False, indent=4)
 
 if __name__ == "__main__":

@@ -4,7 +4,7 @@ import os
 import logging
 import finnhub
 from dotenv import load_dotenv
-from us_tickers import OUTPUT_DIR
+from data_fetching.us_tickers import OUTPUT_DIR
 
 # Configure logging
 logging.basicConfig(
