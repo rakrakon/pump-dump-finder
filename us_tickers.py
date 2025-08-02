@@ -14,7 +14,7 @@ load_dotenv()
 API_KEY = os.getenv("API_KEY")
 SAVE_EVERY = 50
 RATE_LIMIT_DELAY = 1.05
-OUTPUT_DIR = "../data"
+OUTPUT_DIR = "data"
 OUTPUT_FILE = f"{OUTPUT_DIR}/foreign_companies_on_us_exchanges.json"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
