@@ -1,3 +1,5 @@
+import json
+
 from edgar import Company
 from lxml import html
 from lxml.html import tostring, fromstring
@@ -14,11 +16,14 @@ BASE_URL = "https://www.sec.gov"
 
 # Matches .htm files under /Archives/edgar/data/
 EDGAR_DOC_PATTERN = re.compile(r"^/Archives/edgar/data/\d+/.*\.htm$")
+NEW_FILINGS_FILENAME: str = "old_filings.json"
 
 def download_htm_documents_for_symbol(symbol: str, no_of_entries: int = 10):
     """Downloads all .htm files from recent EDGAR filings for a given symbol."""
     output_dir = os.path.join(BASE_OUTPUT_DIR, symbol.upper())
     os.makedirs(output_dir, exist_ok=True)
+
+    new_filings_json = {}
 
     try:
         symbol_to_cik = get_ciks_by_symbols([symbol])
@@ -32,14 +37,16 @@ def download_htm_documents_for_symbol(symbol: str, no_of_entries: int = 10):
             href = link.get("href")
             if href and "index.htm" in href:
                 index_url = urljoin(BASE_URL, href)
-                download_documents_from_index(index_url, output_dir)
+                download_documents_from_index(index_url, output_dir, new_filings_json)
 
         logging.info(f"\nDone downloading for {symbol}. Saved to: {output_dir}")
     except Exception as e:
         logging.info(f"Failed for {symbol}: {e}")
 
+    with open(f"{output_dir}/{NEW_FILINGS_FILENAME}", "w", encoding="utf-8") as f:
+        json.dump(new_filings_json, f, indent=4)
 
-def download_documents_from_index(index_url: str, output_dir: str):
+def download_documents_from_index(index_url: str, output_dir: str, new_filings_json):
     """Parses the index URL and downloads .htm documents listed in its table."""
     try:
         r = requests.get(index_url, headers={"User-Agent": EDGAR_USER_AGENT})
@@ -54,15 +61,14 @@ def download_documents_from_index(index_url: str, output_dir: str):
 
         if href and EDGAR_DOC_PATTERN.match(href):
             full_url = urljoin(BASE_URL, href)
-            download_single_htm_file(full_url, output_dir)
+            download_single_htm_file(full_url, output_dir, new_filings_json)
 
 
-def download_single_htm_file(full_url: str, output_dir: str):
+def download_single_htm_file(full_url: str, output_dir: str, new_filings_json):
     """Downloads and saves a single .htm file from EDGAR."""
     parsed = urlparse(full_url)
     filename = parsed.path.strip("/").replace("/", "_")
-    filename_txt = os.path.splitext(filename)[0] + ".txt"
-    local_path = os.path.join(output_dir, filename_txt)
+    local_path = os.path.join(output_dir, filename)
 
     if os.path.exists(local_path):
         logging.info(f"{full_url} EXISTS, SKIPPING..")
@@ -71,13 +77,15 @@ def download_single_htm_file(full_url: str, output_dir: str):
     try:
         r = requests.get(full_url, headers={"User-Agent": EDGAR_USER_AGENT})
         r.raise_for_status()
+
         truncated_content: str = extract_text_before_marker(r.text)
 
         doc = html.fromstring(truncated_content)
         text_content = doc.text_content()
+        new_filings_json[filename] = text_content
 
-        with open(local_path, "w", encoding="utf-8") as f:
-            f.write(text_content)
+        with open(local_path, "wb") as f:
+            f.write(r.content)
         logging.info(f"Saved: {local_path}")
     except Exception as e:
         logging.info(f"Failed to download {full_url} — {e}")
